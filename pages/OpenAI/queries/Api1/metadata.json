@@ -31,12 +31,14 @@
         },
         "encodingFormat": "float",
         "maxTokens": "16",
-        "messages": [
-          {
-            "role": "user",
-            "content": "What are different names for a baby girl"
-          }
-        ],
+        "messages": {
+          "data": [
+            {
+              "role": "user",
+              "content": "What are different names for a baby girl"
+            }
+          ]
+        },
         "temperature": "0.2",
         "visionModel": {
           "data": ""
